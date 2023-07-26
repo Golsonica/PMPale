@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Head elements omitted for brevity -->
+</head>
+<body>
+  <!-- Body content omitted for brevity -->
+  <div class="col-md-6 mx-auto" id="register">
+    <form action="register.php" method="POST">
+      <div class="">
+        <h6 class=""><b>NOMBRE</h6></h5>
+        <input type="text" placeholder="Ingresá tu nombre" name="name">
+      </div>
+      <div>
+        <h6 class=""><b>APELLIDO</h6></h6>
+        <input type="text" placeholder="Ingresá tu apellido" name="lastname">
+      </div>
+      <div>
+        <h6 class=""><b>CORREO ELECTRÓNICO</h6></h6>
+        <input type="email" placeholder="Ingresá tu email" name="email">
+      </div>
+      <div>
+        <h6 class=""><b>USUARIO</h6></h6>
+        <input type="text" placeholder="Ingresá tu usuario" name="user">
+      </div>
+      <div>
+        <h6 class=""><b>CONTRASEÑA</h6></h6>
+        <input type="password" placeholder="Ingresá tu contraseña" class="password" name="password">
+      </div>
+      <select name="user_type">
+        <option value="user">user</option>
+        <option value="admin">admin</option>
+      </select>
+      <div class="d-flex justify-content-center ">
+        <input type="submit" name="submit" value="REGISTRARSE" class="button">
+      </div>
+      <br>
+      <div class="d-flex justify-content-center ">
+        <p><a href="login.html">¿Ya tenés cuenta? Iniciar sesión</a></p>
+      </div>
+    </form>
+  </div>
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
